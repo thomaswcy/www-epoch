@@ -24,7 +24,7 @@ export default function Main() {
       <Meta
         as={Head}
         name="Reboot"
-        title=Reboot - First hackathon in China since 2019"
+        title="Reboot - First hackathon in China since 2019"
         description="In Shanghai, this April, 50+ teenage hackers will reboot hackathons in China." // page description
         color={`#FF4794`}
       />
