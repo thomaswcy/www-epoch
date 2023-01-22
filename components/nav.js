@@ -84,7 +84,7 @@ export const Nav = () => {
         }}
         as="div"
       >
-        Epoch, Dec. 30th to Jan. 1st
+        Reboot, Apr. 07th to Apr. 09th
       </Heading>
       <Box
         as="a"
