@@ -98,10 +98,10 @@ export default function Main() {
                   mb: 2,
                   color: "white",
                   fontFamily: '"Fira Code"',
-                  textShadow: `0px 0px 21.4900016784668px rgba(0, 0, 128, 1),
-                          0px 0px 32.9800033569336px rgba(0, 0, 128, 0.9),
-                          0px 0px 105.42999267578125px rgba(0, 0, 128, 0.8),
-                          0px 0px 150.8599853515625px rgba(0, 0, 128, 0.7)`,
+                  textShadow: `0px 0px 21.4900016784668px rgba(0, 128, 1),
+                          0px 0px 32.9800033569336px rgba(0, 128, 0.9),
+                          0px 0px 105.42999267578125px rgba(0, 128, 0.8),
+                          0px 0px 150.8599853515625px rgba(0, 128, 0.7)`,
                 }}
               >
                 REBOOT
