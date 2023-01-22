@@ -66,10 +66,10 @@ export default function Hackathon() {
           sx={{
             fontSize: ['13vw', '7.4vw'],
             mb: 2,
-            textShadow: `0px 0px 40.4900016784668px rgba(255, 71, 148, 1),
-                          0px 0px 64.9800033569336px rgba(255, 71, 148, 0.9),
-                          0px 0px 210.42999267578125px rgba(255, 71, 148, 0.8),
-                          0px 0px 200.8599853515625px rgba(255, 71, 148, 0.7)`,
+            textShadow: `0px 0px 40.4900016784668px rgba(0, 128, 1),
+                          0px 0px 64.9800033569336px rgba(0, 128, 0.9),
+                          0px 0px 210.42999267578125px rgba(0, 128, 0.8),
+                          0px 0px 200.8599853515625px rgba(0, 128, 0.7)`,
             position: 'relative',
             zIndex: '500',
           }}
@@ -77,7 +77,7 @@ export default function Hackathon() {
           Hackathon.
         </Heading>
         <Box sx={{ fontSize: [2, 3, 3], width: '100%', mt: 3 }}>
-          Epoch is a social coding event where teens come together for a weekend
+          Reboot is a social coding event where teens come together for a weekend
           to discover the joy of code, build creative projects and share their
           projects with the world.
           <Box sx={{ position: 'relative', mt: 3 }}>
@@ -115,8 +115,8 @@ export default function Hackathon() {
       </Box>
       <Flex sx={{ flexDirection: 'column', height: ['80vh', '100%'] }}>
         {[
-          [AssembleTwo, '#FF4794', '175 Hackers'],
-          [AssembleThree, '#D63AF9', '42 Hours'],
+          [AssembleTwo, '#FF4794', '50+ Hackers'],
+          [AssembleThree, '#D63AF9', '44 Hours'],
           [
             AssembleFour,
             '#9d3af9',
