@@ -23,14 +23,13 @@ export default function Main() {
       <Nav />
       <Meta
         as={Head}
-        name="Hack Club"
-        title="Epoch - high-school hackathon in the Delhi NCR"
-        description="In the Delhi NCR, this coming new year, 150+ teenage hackers will welcome in 2023 together at a high-school hackathon unlike anything the world has seen before." // page description
-        image="https://cloud-6hdjg5twa-hack-club-bot.vercel.app/0epoch.hackclub.com-meta.png"
+        name="Reboot"
+        title=Reboot - First hackathon in China since 2019"
+        description="In Shanghai, this April, 50+ teenage hackers will reboot hackathons in China." // page description
         color={`#FF4794`}
       />
       <h1 style={{display: 'none'}}>
-        Epoch - high school hackathon in the Delhi NCR.
+        Epoch - high school hackathon in Shanghai.
       </h1>
       <Grid
         sx={{
@@ -87,7 +86,7 @@ export default function Main() {
                   position: "relative",
                 }}
               >
-                HACK CLUB PRESENTS
+                HACKERS,
               </Box>
               <Heading
                 as="div"
@@ -99,13 +98,13 @@ export default function Main() {
                   mb: 2,
                   color: "white",
                   fontFamily: '"Fira Code"',
-                  textShadow: `0px 0px 21.4900016784668px rgba(255, 71, 148, 1),
-                          0px 0px 32.9800033569336px rgba(255, 71, 148, 0.9),
-                          0px 0px 105.42999267578125px rgba(255, 71, 148, 0.8),
-                          0px 0px 150.8599853515625px rgba(255, 71, 148, 0.7)`,
+                  textShadow: `0px 0px 21.4900016784668px rgba(0, 0, 136, 0.9),
+                          0px 0px 32.9800033569336px rgba(0, 0, 136, 0.8),
+                          0px 0px 105.42999267578125px rgba(0, 0, 136, 0.7),
+                          0px 0px 150.8599853515625px rgba(0, 0, 136, 0.6)`,
                 }}
               >
-                EP0CH
+                REBOOT
               </Heading>
               <Flex>
                 <Box
@@ -153,11 +152,10 @@ export default function Main() {
                     margin: ["auto", 0]
                   }}
                 >
-                  Dec. 30 2022 to Jan. 1 2023
+                  Dec. 07 2022 to Jan. 09 2023
                 </Box>
-                <Box sx={{ fontWeight: 800 }}><b>Gurugram, Delhi NCR</b> </Box>
-                <Box>₹12.5 Lakh in travel stipends </Box>
-                <Box> Doors open at 6PM; 42-hours long </Box>
+                <Box sx={{ fontWeight: 800 }}><b>Shanghai, China</b> </Box>
+                <Box> Doors open at 6PM; 44-hours long </Box>
               </Flex>
             </Flex>
             <ScrollHint mobile />
