@@ -152,7 +152,7 @@ export default function Main() {
                     margin: ["auto", 0]
                   }}
                 >
-                  Dec. 07 2022 to Jan. 09 2023
+                  Apr. 07 2023 to Apr. 09 2023
                 </Box>
                 <Box sx={{ fontWeight: 800 }}><b>Shanghai, China</b> </Box>
                 <Box> Doors open at 6PM; 44-hours long </Box>
