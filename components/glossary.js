@@ -103,7 +103,7 @@ export default function Glossary() {
                 </Link>.
                 Everything from this website to Reboot's dinner menu, was
                 created by teenagers just like yourself and you're welcome to
-                help out in <i>#epoch-bts</i> on{" "}
+                help out in <i>#reboot-bts</i> on{" "}
                 <Link href="https://hackclub.com/slack" target="_blank">
                   the Slack
                 </Link>
@@ -163,9 +163,9 @@ export default function Glossary() {
                   We're here to help, ask them to reach out to us at{" "}
                   <a
                     style={{ color: "black" }}
-                    href="mailto:epoch@hackclub.com"
+                    href="mailto:thomaswcy@linkscape.app"
                   >
-                    epoch@hackclub.com
+                    thomaswcy@linkscape.app
                   </a>{" "}
                   and we'll make sure to answer all their questions. Epoch will
                   be supervised by background checked staff and overseen by 24/7
@@ -227,6 +227,7 @@ export default function Glossary() {
                     href="mailto:thomaswcy@linkscape.app"
                   >
                     thomaswcy@linkscape.app
+                  <br />
                   </a>{" "}
                   We're always ready to answer all your questions!
                 </>
