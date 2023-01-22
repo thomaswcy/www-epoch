@@ -78,11 +78,11 @@ export default function Forward() {
             artists, writers, engineers, tinkerers, campers, filmmakers,
             volunteers. We make things. We help one another. We have fun.
             <br /> <br />
-            Epoch has been organised by the community in public on the{' '}
+            Reboot has been organised by the community in public on the{' '}
             <Link href="https://hackclub.com/slack" target="_blank">
               Hack Club Slack
             </Link>
-            . Everything from this website to Epoch's dinner menu, was created
+            . Everything from this website to Reboot's dinner menu, was created
             by teenagers just like yourself and you're welcome to help out in{' '}
             <i>#epoch-bts</i> on{' '}
             <Link href="https://hackclub.com/slack" target="_blank">
@@ -100,27 +100,27 @@ export default function Forward() {
       colour: 'red',
     },
     1: {
-      title: 'Cyber City, Delhi NCR',
+      title: 'Shanghai, China',
       description: (
         <Grid columns={2}>
           <Box sx={{ lineHeight: '1.6' }}>
-            <b>Epoch is taking place at:</b>
+            <b>Reboot is taking place at:</b>
             <br />
-            Masters' Union School of Business
+            Placeholder I
             <br />
-            G33R+29P, Phase II,
+            Placeholder II,
             <br />
-            Udyog Vihar, Sector 20,
+            Placeholder III
             <br />
-            Gurugram, Haryana 122022, India
+            Shanghai, China
             <Grid columns={2} mt={3}>
               <Image
-                alt="Image of Gurugram's skyline in the Delhi NCR"
+                alt="Placeholder"
                 sx={{ borderRadius: 4, objectFit: 'cover', height: '200px' }}
                 src="https://upload.wikimedia.org/wikipedia/commons/c/c2/Cyber_City_Skyline.jpeg"
               />
               <Image
-                alt="Image of Gurugram's metro in the Delhi NCR"
+                alt="Placeholder"
                 sx={{ borderRadius: 4, objectFit: 'cover', height: '200px' }}
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Cyber_City_View.jpg/2560px-Cyber_City_View.jpg"
               />
@@ -142,22 +142,7 @@ export default function Forward() {
       ),
       colour: 'orange',
     },
-    2: {
-      title: '₹12.5 Lakh in travel stipends',
-      description: (
-        <>
-          Epoch is for hackers across India and the world; with that in mind,
-          we're providing ₹12.5 lakh in travel stipends to both domestic and
-          international attendees. We'll cover the full cost of a return flight
-          to New Delhi for stipend recipients in India and provide a USD 500
-          stipend to international stipend recipients.
-          <br /> <br />
-          Those interested in a travel stipend can request one on the
-          registration form.
-        </>
-      ),
-      colour: 'purple',
-    },
+
   }
   return (
     <>
