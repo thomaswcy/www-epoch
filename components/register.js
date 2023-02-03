@@ -38,7 +38,7 @@ export default function Register() {
         <Box sx={{ fontSize: [2, 3, 3], width: '100%' }}>
           <Grid>
             <Box sx={{ textAlign: 'center' }}>
-              Epoch is open to anyone anywhere, 18 or younger. Participation,
+              Reboot is open to anyone anywhere, 18 or younger. Participation,
               including meals, costs nothing and travel stipends are available.
             </Box>
             <Input
@@ -86,9 +86,9 @@ export default function Register() {
                 opacity: !(name != '' && email != '') ? 0.7 : 1,
                 background: theme.util.gx('orange', 'red'),
               }}
-              href={`https://register.epoch.hackclub.com?email=${email}&name=${name}`}
+              href={`https://airtable.com/shrUb9NI0tm8hv8at?prefill_Contact+Email=${email}&prefill_Name=${name}`}
             >
-              Finish {11 - (name != '' ? 1 : 0) - (email != '' ? 1 : 0)} more
+              Finish {10 - (name != '' ? 1 : 0) - (email != '' ? 1 : 0)} more
               fields to register.
             </Button>
           </Grid>
