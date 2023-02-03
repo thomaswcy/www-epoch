@@ -7,7 +7,6 @@ import Hackathon from "../components/hackathon";
 import Expectations from "../components/expectations";
 import Register from "../components/register";
 import Glossary from "../components/glossary";
-import Closing from "../components/closing";
 import ScrollHint from "../components/scroll-hint";
 
 import { Heading, Box, Text, Flex, Grid } from "theme-ui";
@@ -169,7 +168,6 @@ export default function Main() {
       <Layout>
         <Glossary />
         <Register />
-        <Closing />
       </Layout>
     </>
   );
